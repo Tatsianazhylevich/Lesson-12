@@ -1,9 +1,9 @@
 // ===================TASK 1==============================
 
 let initialNumber = +prompt('Make a number', 'your number');
-addNumber = +prompt('How much will we add?', 'your number to add');
-multiplyNumber = +prompt('How much will we multiply?', 'your number to multiply');
-divideNumber = +prompt('And now divide by', 'your number to divide');
+let addNumber = +prompt('How much will we add?', 'your number to add');
+let multiplyNumber = +prompt('How much will we multiply?', 'your number to multiply');
+let divideNumber = +prompt('And now divide by', 'your number to divide');
 
 result = (initialNumber + addNumber) * multiplyNumber / divideNumber;
 alert(`(${initialNumber} + ${addNumber}) * ${multiplyNumber} / ${divideNumber} = ${result}`);
