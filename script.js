@@ -1,12 +1,13 @@
 // ===================TASK 1==============================
 
-let initialNumber = +prompt('Make a number', 'your number');
-let addNumber = +prompt('How much will we add?', 'your number to add');
-let multiplyNumber = +prompt('How much will we multiply?', 'your number to multiply');
-let divideNumber = +prompt('And now divide by', 'your number to divide');
+let initialUserNumber = +prompt('Make a number', 'your number');
+let userNumberToAdd = +prompt('How much will we add?', 'your number to add');
+let userNumberToSubtract = +prompt('How much will we subtract?', 'your number to subtract');
+let userNumberToMultiply = +prompt('How much will we multiply?', 'your number to multiply');
+let userNumberToDivide = +prompt('And now divide by', 'your number to divide');
 
-result = (initialNumber + addNumber) * multiplyNumber / divideNumber;
-alert(`(${initialNumber} + ${addNumber}) * ${multiplyNumber} / ${divideNumber} = ${result}`);
+result = ((initialUserNumber + userNumberToAdd) - userNumberToSubtract ) * userNumberToMultiply / userNumberToDivide;
+alert(`((${initialUserNumber} + ${userNumberToAdd}) - ${userNumberToSubtract}) * ${userNumberToMultiply} / ${userNumberToDivide} = ${result}`);
 
 // ===================TASK 2===============================
 
